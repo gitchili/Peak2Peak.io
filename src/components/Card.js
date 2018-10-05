@@ -1,20 +1,22 @@
-import React from 'react';
-import { Card, CardImg, CardBody, CardSubtitle, CardTitle, CardText, } from 'reactstrap';
-import Webinfo from '../p2p-BG.svg'
+import React from "react";
+import { Card, CardImg, CardImgOverlay } from "reactstrap";
+import redMan from "../assets/redMan.svg";
+import purpleMan from "../assets/purpleMan.svg";
 
-const whatWeDo = (props) => {
-    return (
-        <div>
-            <Card>
-                <CardImg src={Webinfo} alt="Card image cap" />
-                <CardBody>
-                    <CardTitle>Peak 2 Peak </CardTitle>
-                    <CardSubtitle>MultiMedia</CardSubtitle>
-                    <CardText>Let us bring your dreams to life!</CardText>
-                </CardBody>
-            </Card>
-        </div>
-    );
+const whatWeDo = props => {
+  return (
+    <div>
+      <Card inverse>
+        <CardImgOverlay>
+          {/* <img alt="Card image cap" /> */}
+          <div style={{ display: "flex3" }}>
+            <CardImg src={purpleMan} alt="Card image cap" />
+            <CardImg src={redMan} alt="Card image cap" />
+          </div>
+        </CardImgOverlay>
+      </Card>
+    </div>
+  );
 };
 
 export default whatWeDo;

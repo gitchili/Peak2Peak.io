@@ -3,7 +3,6 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
 
@@ -21,6 +20,29 @@
 .App-intro {
   font-size: large;
 }
+
+/* .dancers {
+  display: none
+  
+} */
+.greenGirl {
+  position: relative;
+}
+
+.purpleMan {
+  position: relative;
+
+  
+}
+
+.redMan {
+  /* position: absolute; */
+}
+
+.dancers {
+display: felx
+}
+
 
 /* @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
