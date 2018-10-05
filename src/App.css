@@ -30,17 +30,19 @@
 }
 
 .purpleMan {
-  position: relative;
+  position: absolute;
 
   
 }
-
+.blueGirl {
+  position: absolute;
+}
 .redMan {
-  /* position: absolute; */
+  position: absolute;
 }
 
 .dancers {
-display: felx
+  position: relative;
 }
 
 

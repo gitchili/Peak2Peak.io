@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 // import Navigation from "./components/Nav/Navigation"
 // import Card from "./components/Card"
-import RedMan from "./components/Nav/RedMan";
-import PurpleMan from "./components/Nav/PurpleMan";
+import Dancers from "./components/Nav/Dancers";
 
 // import Navigation from "./components/Nav/Navigation";
 
@@ -13,8 +12,7 @@ class App extends Component {
       <div className="App">
         {/* <Navigation /> */}
         <div className="dancers">
-          <RedMan />
-          <PurpleMan />
+          <Dancers />
         </div>
       </div>
     );
